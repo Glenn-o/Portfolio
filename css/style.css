@@ -5,12 +5,15 @@ body{
 #navbar li{
     float: right;
     padding: 12px 20px;
+    transform: scale(1);
 }
 #navbar {
     margin: 0 auto;
     width: 90%;
     height: 65px;
     list-style-type: none;
+    opacity:0;
+    transition:all 1.5s ease;
 
 }
 #navbar a {
@@ -19,13 +22,18 @@ body{
     font-size: 1.5em;
     padding: 10px;
     font-family: 'Alata', sans-serif;
+    
+}
+#navbar li:hover{
+    transform: scale(1.10);
+    transition: 200ms;
 }
 .boy{
     width: 200px;
     display: flex;
     margin: 3% auto;
     opacity:0;
-    transition:all 1s ease;
+    transition:all 2s ease;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -33,7 +41,7 @@ h1{
     font-weight: normal; 
     color: #2c3e50;
     opacity:0;
-    transition:all 1s ease;
+    transition:all 4s ease;
 }
 #arrow{
     margin: 5% auto;
@@ -42,7 +50,7 @@ h1{
     cursor: pointer;
     animation: bounce 0.5s ease infinite alternate;
     opacity:0;
-    transition:all 1s ease;
+    transition:all 4s ease;
     
 }
 @keyframes bounce{
