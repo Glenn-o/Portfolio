@@ -24,12 +24,16 @@ body{
     width: 200px;
     display: flex;
     margin: 3% auto;
+    opacity:0;
+    transition:all 1s ease;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
     text-align: center; 
     font-weight: normal; 
     color: #2c3e50;
+    opacity:0;
+    transition:all 1s ease;
 }
 #arrow{
     margin: 5% auto;
@@ -37,6 +41,8 @@ h1{
     width: 3%;
     cursor: pointer;
     animation: bounce 0.5s ease infinite alternate;
+    opacity:0;
+    transition:all 1s ease;
     
 }
 @keyframes bounce{
