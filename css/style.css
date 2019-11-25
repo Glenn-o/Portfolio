@@ -1,0 +1,45 @@
+body{
+    background-color: #FAFAFA;
+    margin: 0 auto;   
+}
+#navbar li{
+    float: right;
+    padding: 12px 20px;
+}
+#navbar {
+    margin: 0 auto;
+    width: 90%;
+    height: 65px;
+    list-style-type: none;
+
+}
+#navbar a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 1.5em;
+    padding: 10px;
+    font-family: 'Alata', sans-serif;
+}
+.boy{
+    width: 200px;
+    display: flex;
+    margin: 3% auto;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+    font-weight: normal; 
+    color: #2c3e50;
+}
+#arrow{
+    margin: 5% auto;
+    display: flex;
+    width: 3%;
+    cursor: pointer;
+    animation: bounce 0.5s ease infinite alternate;
+    
+}
+@keyframes bounce{
+    from {transform: translateY(0);}
+    to   {transform: translateY(-20px);}
+}
