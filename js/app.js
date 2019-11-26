@@ -17,4 +17,11 @@ if (curScroll >= boy.offsetTop - windowHeight + boy.offsetHeight/2.5){
         menu.style.opacity = "1";
 }
 
-addEvent(window, "scroll", scrolled, false);
+/*function scrolled(){
+        var curScroll = document.documentElement.scrollTop || document.body.scrollTop,
+		windowHeight = document.documentElement.clientHeight;
+	if (curScroll >= img.offsetTop - windowHeight + img.offsetHeight/2.5){
+		img.style.opacity = "1";
+	}
+}       
+addEvent(window, "scroll", scrolled, false);*/
