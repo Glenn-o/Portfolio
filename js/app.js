@@ -9,7 +9,7 @@ var curScroll = document.documentElement.scrollTop || document.body.scrollTop,
 		windowHeight = document.documentElement.clientHeight;
         
 
-if (curScroll >= boy.offsetTop - windowHeight + boy.offsetHeight/2.5){
+if (curScroll >= menu.offsetTop - windowHeight + menu.offsetHeight/2.5){
         boy.style.opacity = "1";
         titre1.style.opacity ="1";
         titre2.style.opacity ="1";

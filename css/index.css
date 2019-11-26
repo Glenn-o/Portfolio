@@ -26,7 +26,7 @@ body{
 }
 #navbar li:hover{
     transform: scale(1.10);
-    transition: 200ms;
+    transition: 100ms;
 }
 .boy{
     width: 200px;
@@ -56,4 +56,11 @@ h1{
 @keyframes bounce{
     from {transform: translateY(0);}
     to   {transform: translateY(-20px);}
+}
+@media screen and (max-width: 1200px){
+    #navbar{
+        display: none;
+    }
+
+
 }
