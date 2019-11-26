@@ -59,6 +59,9 @@ h1{
     height: 100%;
     padding: 20px;
     margin: 2% auto;
+    border: solid 2px #2c3e50 ;
+    border-radius: 20px;
+    border-style: dashed;
 }
 #mail{
     width: 100%;
@@ -72,57 +75,5 @@ h1{
     width: 100%;
     padding: 0 10px; 
 }
-@keyframes bg {
-    0% {
-        background-size:    0 3px,
-                            3px 0,
-                            0 3px,
-                            3px 0;
-    }
-    25% {
-        background-size:    100% 3px,
-                            3px 0,
-                            0 3px,
-                            3px 0;
-    }
-    50% {
-        background-size:    100% 3px,
-                            3px 100%,
-                            0 3px,
-                            3px 0;
-    }
-    75% {
-        background-size:    100% 3px,
-                            3px 100%,
-                            100% 3px,
-                            3px 0;
-    }
-    100% {
-        background-size:    100% 3px,
-                            3px 100%,
-                            100% 3px,
-                            3px 100%;
-    }
-}
 
-#container {
-    margin: 2rem auto;
-    padding: 2em;
-    
-    background-repeat: no-repeat;
-    background-image:   linear-gradient(to right, #2c3e50 100%, #2c3e50 100%),
-                        linear-gradient(to bottom, #2c3e50 100%, #2c3e50 100%),
-                        linear-gradient(to right, #2c3e50 100%, #2c3e50 100%),
-                        linear-gradient(to bottom, #2c3e50 100%, #2c3e50 100%);
-    background-size:    100% 3px,
-                        3px 100%,
-                        100% 3px,
-                        3px 100%;
-    background-position:    0 0,
-                            100% 0,
-                            100% 100%,
-                            0 100%;
-    animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
-    animation-play-state: running;
-}
 
