@@ -16,12 +16,3 @@ if (curScroll >= menu.offsetTop - windowHeight + menu.offsetHeight/2.5){
         fleche.style.opacity ="1";
         menu.style.opacity = "1";
 }
-
-/*function scrolled(){
-        var curScroll = document.documentElement.scrollTop || document.body.scrollTop,
-		windowHeight = document.documentElement.clientHeight;
-	if (curScroll >= img.offsetTop - windowHeight + img.offsetHeight/2.5){
-		img.style.opacity = "1";
-	}
-}       
-addEvent(window, "scroll", scrolled, false);*/
