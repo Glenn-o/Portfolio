@@ -1,3 +1,6 @@
+* {-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -6,9 +9,7 @@ body{
     margin: 0 auto; 
     padding: 0; 
 }
-* {-moz-box-sizing: border-box;
-     box-sizing: border-box;
-}
+
 #navbar li{
     float: right;
     padding: 12px 20px;
@@ -84,8 +85,6 @@ body{
     overflow: hidden;
     margin: 10px auto;
     box-shadow: 0px 0px 18px -3px rgba(44,62,80,0.79);
-    border-radius: 20px;
-    
 }
 .img_poc{
     width: 600px;
@@ -136,8 +135,8 @@ a{
     color: #2c3e50;
 }
 .projet1:hover{
-    transform: scale(1.01);
-    transition: 100ms;
+    transform: scale(1.02);
+    transition: 200ms;
 }
 .bientot{
     width: 800px;
@@ -149,8 +148,8 @@ a{
     transform: scale(1);
 }
 .bientot:hover{
-    transform: scale(1.01);
-    transition: 100ms;
+    transform: scale(1.02);
+    transition: 200ms;
 }
 .img_bientot{
     width: 50%;
@@ -158,11 +157,31 @@ a{
 }
 .me{
     margin: 100px auto;
-    text-align: center;
     font-family: 'Alata', sans-serif;
-    color: ;
 }
 .me h1{
     text-transform: uppercase;
     color: #2c3e50 ;
+    text-align: center;
+}
+#bouton{
+    display: flex;
+    margin: 200px auto;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    background-color: #f04d23;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 100px;
+    transform: scale(1);
+    cursor: pointer;
+}
+#bouton:hover{
+    transform: scale(1.10);
+    transition: 200ms;
+}
+.proposdemoi{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
 }
