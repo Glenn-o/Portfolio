@@ -20,8 +20,6 @@ body{
     width: 90%;
     height: 65px;
     list-style-type: none;
-    opacity:0;
-    transition:all 1.5s ease;
 
 }
 #navbar a {
@@ -40,16 +38,12 @@ body{
     width: 200px;
     display: flex;
     margin: 3% auto;
-    opacity:0;
-    transition:all 2s ease;
 }
 #h1{
     font-family: 'Montserrat', sans-serif;
     text-align: center; 
     font-weight: normal; 
     color: #2c3e50;
-    opacity:0;
-    transition:all 4s ease;
 }
 #arrow{
     margin: 5% auto;
@@ -57,8 +51,6 @@ body{
     width: 35px;
     cursor: pointer;
     animation: bounce 0.5s ease infinite alternate;
-    opacity:0;
-    transition:all 4s ease;
     
 }
 @keyframes bounce{
@@ -179,6 +171,10 @@ a{
     transform: scale(1);
     cursor: pointer;
 }
+#bouton a{
+    color: white;
+    text-transform: uppercase;
+}
 #bouton:hover{
     transform: scale(1.10);
     transition: 200ms;
@@ -258,21 +254,18 @@ a{
         position: fixed;
         top: 0;
         z-index: 100;
-        opacity: 1;
     }
     .boy{
         width: 40%;
         display: flex;
         margin: 10% auto;
         margin-bottom: 5vh;
-        opacity:1;
     }
     #h1{
         font-family: 'Montserrat', sans-serif;
         text-align: center; 
         font-weight: normal; 
         color: #2c3e50;
-        opacity:1;
         font-size: 4em;
     }
     #arrow{
@@ -282,7 +275,6 @@ a{
         margin-top: 10vh;
         cursor: pointer;
         animation: bounce 0.5s ease infinite alternate;
-        opacity:0;
         
     }
     body{
