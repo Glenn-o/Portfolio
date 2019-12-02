@@ -9,7 +9,6 @@ body{
     margin: 0 auto; 
     padding: 0; 
 }
-
 #navbar li{
     float: right;
     padding: 12px 20px;
@@ -329,6 +328,7 @@ a{
         margin: auto;
         margin-top: 2vh;
         text-align: center;
+        margin-bottom: 2vh;
     }
     .logo_diplome{
         width: 20%;
@@ -348,5 +348,6 @@ a{
         font-size: 1.6vh;
         padding: 0 3%;
         border: none;
+        text-decoration: none;
     }
 }
