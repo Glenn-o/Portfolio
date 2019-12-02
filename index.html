@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alata|Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="#navbar"><img src="image/arrow_up.png" alt="arrow up" class="arrow_up"></a>
     <header>
         <ul id="navbar"> <!-- navigation bar -->
             <li><a href="contact.html">Contact</a></li>
@@ -47,21 +48,43 @@
         </div>
     </div>
 
-    <div class="me"> <!-- partie personnel-->
+    <div class="me"> <!-- partie personnel -->
         <h1>à propos de moi :</h1>
 
-        <div class="proposdemoi">
-            <img src="image/photo.png" alt="photo">
+        <div class="aboutme"><!-- photo plus description -->
+            <img src="image/photo.png" alt="photo" class="photo">
+            <div class="text_aboutme"><p>Passioné par l'informatique depuis plusieurs années, je suis actuellement dans la formation développeur informatique au CESI.</p></div>
         </div>
-        
-    
-    
-        
 
-        <a href="CV.pdf"><input type="submit" value="TELECHARGER MON CV" id="bouton"></a>
+        <div class="diplome">
+            <img src="image/diplome.png" alt="logo diplome" class="logo_diplome">
+            <h1>diplôme et formation :</h1><br>
+            <p>2019-2021 / formation au cesi (développeur informatique)</p><br>
+            <p>2019 / baccalauréat scientifique</p>
+        </div>
+
+        <div class="xp">
+            <img src="image/board.png" alt="logo compétences" class="logo_xp">
+            <h1>compétences :</h1>
+
+            <div id="container">
+                <p class="p1">- html/css</p><br>
+                <p class="p2">- Python</p><br>
+                <p class="p3">- JavaScript</p><br>
+                <p class="p4">- Git/GitHub</p><br>
+                <p class="p5">- Photoshop</p><br>
+            </div>
+
+            <div id="container2">
+
+            </div>
+        </div>
+
+        <a href="CV.pdf" download="CV.pdf"><input type="submit" value="TELECHARGER MON CV" id="bouton"></a>
+
     </div>
     <footer>
-
+        
     </footer>
 <script src="js/app.js"></script>
 </body>
