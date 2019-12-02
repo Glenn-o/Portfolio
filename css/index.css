@@ -237,7 +237,7 @@ a{
     position: fixed;
     z-index: 100;
 }
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 668px)
 {
     .arrow_up{
         width: 13%;
@@ -345,7 +345,7 @@ a{
     #bouton{
         width: 20vh;
         height: 5vh;
-        font-size: 2.5em;
+        font-size: 1.6vh;
         padding: 0 3%;
     }
 }
