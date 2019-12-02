@@ -237,7 +237,8 @@ a{
     position: fixed;
     z-index: 100;
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px)
+{
     .arrow_up{
         width: 13%;
     }
@@ -246,7 +247,7 @@ a{
         color: white;
     }
     #navbar li {
-        padding: 5% 5%;
+        padding: 5% 15%;
     }
     #navbar {
         margin: auto;
@@ -280,6 +281,9 @@ a{
         animation: bounce 0.5s ease infinite alternate;
         opacity:1;
         
-
+    }
+    body{
+        margin-top: 15vh;
+    }
 }
 
