@@ -237,9 +237,49 @@ a{
     position: fixed;
     z-index: 100;
 }
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1200px){
     .arrow_up{
-        width: 6%;
+        width: 13%;
     }
+    #navbar a {
+        font-size: 4em;
+        color: white;
+    }
+    #navbar li {
+        padding: 5% 5%;
+    }
+    #navbar {
+        margin: auto;
+        width: 100%;
+        height: 10vh;
+        list-style-type: none;
+        background-color: #2c3e50;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        opacity: 1;
+    }
+    .boy{
+        width: 200px;
+        display: flex;
+        margin: 10% auto;
+        opacity:1;
+    }
+    #h1{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center; 
+        font-weight: normal; 
+        color: #2c3e50;
+        opacity:1;
+    }
+    #arrow{
+        margin: 5% auto;
+        display: flex;
+        width: 35px;
+        cursor: pointer;
+        animation: bounce 0.5s ease infinite alternate;
+        opacity:1;
+        
+
 }
 
