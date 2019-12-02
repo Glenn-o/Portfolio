@@ -3,6 +3,7 @@
 }
 html{
     scroll-behavior: smooth;
+    width: 100%;
 }
 body{
     background-color: #FAFAFA;
@@ -236,7 +237,7 @@ a{
     position: fixed;
     z-index: 100;
 }
-@media all and (orientation: portrait)
+@media screen and (orientation: portrait)
 {
     .arrow_up{
         width: 13%;
@@ -347,7 +348,5 @@ a{
         height: 5vh;
         font-size: 1.6vh;
         padding: 0 3%;
-        border: none;
-        text-decoration: none;
     }
 }

@@ -34,8 +34,9 @@ body{
     float: left;
 }
 .in{
-    width: 8%;
     float: left;
+    width: 8%;
+    padding: 0 10px; 
 }
 p{
     font-family: 'Montserrat', sans-serif;
@@ -71,9 +72,40 @@ h1{
     width: 100%;
     padding: 0 10px;
 }
-#in{
-    width: 100%;
-    padding: 0 10px; 
-}
 
+@media screen and (orientation: portrait)
+{
+    #navbar a {
+        font-size: 4em;
+        color: white;
+    }
+    #navbar li {
+        padding: 4% 13%;
+    }
+    #navbar {
+        margin: auto;
+        width: 100%;
+        height: 10vh;
+        list-style-type: none;
+        background-color: #2c3e50;
+        top: 0;
+        z-index: 100;
+        opacity: 1;
+    }
+    #container{
+        width: 90%;
+        margin-top: 10vh;
+    }
+    h1{
+        font-size: 4em;
+        margin-top: 8vh;
+    }
+    p{
+        font-size: 3em;
+        margin-left: 15%;
+    }
+    #container img{
+        width: 15%;
+    }
+}
 
