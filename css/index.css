@@ -237,7 +237,7 @@ a{
     position: fixed;
     z-index: 100;
 }
-@media screen and (max-width: 1200px)
+@media all and (orientation: portrait)
 {
     .arrow_up{
         width: 13%;
@@ -335,7 +335,7 @@ a{
         margin-bottom: 7vh;
     }
     .logo_xp{
-        width: 20%;
+        width: 22%;
         margin-top: 10vh;
         margin-bottom: 7vh;
     }
@@ -347,5 +347,6 @@ a{
         height: 5vh;
         font-size: 1.6vh;
         padding: 0 3%;
+        border: none;
     }
 }
