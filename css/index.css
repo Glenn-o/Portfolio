@@ -237,7 +237,7 @@ a{
     position: fixed;
     z-index: 100;
 }
-@media screen and (max-width: 668px)
+@media screen and (max-width: 812px)
 {
     .arrow_up{
         width: 13%;
