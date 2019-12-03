@@ -233,7 +233,7 @@ a{
     position: fixed;
     z-index: 100;
 }
-@media all and (orientation: portrait)
+@media screen and (orientation: portrait)
 {
     .arrow_up{
         width: 13%;
@@ -342,7 +342,7 @@ a{
         padding: 0 3%;
     }
 }
-@media all and (max-width: 1000px)
+@media screen and (max-width: 1000px)
 {
     .diplome{
         margin-top: 50%;
