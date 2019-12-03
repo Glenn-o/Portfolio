@@ -187,13 +187,16 @@ a{
     width: 450px;
     float: left;
     margin-left: 15%;
-    margin-top: 9%;
     text-align: center;
     color: #2c3e50;
 }
 .photo{
     float: left;
     margin-left: 10%;
+}
+.aboutme h1{
+    float: left;
+    margin-left: 25%;
 }
 .diplome{
     margin: auto;
@@ -315,11 +318,14 @@ a{
         float: none;
         margin: auto;
         width: 40%;
+        margin-bottom: 5vh;
+    }
+    .aboutme h1{
+        text-align: center;
     }
     .text_aboutme{
         width: 100%;
         margin: auto;
-        margin-top: 2vh;
         text-align: center;
         margin-bottom: 2vh;
     }
