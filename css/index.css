@@ -223,7 +223,7 @@ a{
     box-shadow: 0px 0px 10px -1px rgba(44,62,80,0.2);
 
 }
-#container img{
+#container .skill{
     width: 20%;
     margin-top: 7%;
     margin-bottom: 7%;
@@ -307,9 +307,12 @@ footer a{
 footer{
     font-family: 'Montserrat', sans-serif;
 }
+#img_check{
+    width: 3.5%;
+    margin-left: 1.2%;
+}
 @media all and (orientation: portrait)
 {
- 
     footer h1{
         text-transform: uppercase;
         font-size: 4em;
@@ -409,7 +412,7 @@ footer{
     #container2 img{
         width: 30%;
     }
-    #container img{
+    #container .skill{
         width: 22%;
     }
     .xp h1{
