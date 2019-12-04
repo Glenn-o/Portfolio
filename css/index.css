@@ -116,9 +116,7 @@ a{
     height: 100%;
     background: white;
     margin: 30px auto;
-    box-shadow: 0px 0px 18px -3px rgba(44,62,80,0.79);
-    border-radius: 50px;
-    transform: scale(1);
+    box-shadow: 0px 0px 18px -3px rgba(44,62,80,0.3);
     cursor: pointer;
 }
 #projet a{
@@ -126,18 +124,12 @@ a{
     color: #2c3e50;
     cursor: initial;
 }
-.projet1:hover{
-    transform: scale(1.02);
-    transition: 200ms;
-}
 .bientot{
     width: 800px;
     height: 500px;
     background: white;
     margin: 100px auto;
-    box-shadow: 0px 0px 18px -3px rgba(44,62,80,0.79);
-    border-radius: 50px;
-    transform: scale(1);
+    box-shadow: 0px 0px 18px -3px rgba(44,62,80,0.3);
 }
 .bientot:hover{
     transform: scale(1.02);
@@ -199,14 +191,26 @@ a{
     margin: auto;
     margin-top: 37%;
     width: 100%;
+    margin-bottom: 10%;
     text-transform: uppercase;
     color: #2c3e50;
     text-align: center;
 }
-.logo_diplome{
+#container2 img{
     width: 100px;
     display: block;
     margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#container2{
+    width: 500px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px -1px rgba(44,62,80,0.2);
+    text-align: center;
+    margin: auto;
+
 }
 .logo_xp{
     width: 110px;
@@ -218,9 +222,15 @@ a{
     margin: auto;
     width: 500px;
     height: 100%;
-    margin-top: 5%;
     text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px -1px rgba(44,62,80,0.2);
 
+}
+#container img{
+    width: 20%;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 .p1{
     text-transform: uppercase;    
@@ -299,6 +309,16 @@ footer a{
 }
 @media screen and (orientation: portrait)
 {
+ 
+    .diplome{
+        margin-top: 35vh;
+    }
+    #container{
+        width: 90%;
+    }
+    #container2{
+        width: 90%;
+    }
     .arrow_up{
         width: 13%;
     }
@@ -376,17 +396,15 @@ footer a{
         text-align: center;
         margin-bottom: 2vh;
     }
-    .logo_diplome{
-        width: 20%;
-        margin-bottom: 7vh;
+    #container2 img{
+        width: 30%;
     }
-    .logo_xp{
+    #container img{
         width: 22%;
-        margin-top: 10vh;
-        margin-bottom: 7vh;
     }
     .xp h1{
-        margin-bottom: 5vh;
+        margin-bottom: 3%;
+        margin-top: 20%;
     }
     #bouton{
         width: auto;
@@ -473,6 +491,7 @@ footer a{
     }
     .diplome{
         margin-top: 20%;
+
     }
     .logo_diplome{
         width: 10%;
