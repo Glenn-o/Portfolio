@@ -34,7 +34,7 @@ body{
     transform: scale(1.10);
     transition: 100ms;
 }
-.boy{
+.logo{
     width: 200px;
     display: flex;
     margin: 3% auto;
@@ -258,7 +258,7 @@ a{
         top: 0;
         z-index: 100;
     }
-    .boy{
+    .logo{
         width: 40%;
         display: flex;
         margin: 10% auto;
