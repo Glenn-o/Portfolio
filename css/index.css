@@ -52,6 +52,7 @@ a{
 }
 .bouton_contact a {
     text-transform: uppercase;
+    font-size: 1.3em;
 }
 #projet{
     margin-top: 5%;
