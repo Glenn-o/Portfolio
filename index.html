@@ -9,13 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Alata|Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <a OnClick=window.location.href="https://glenn-oberle.fr"><img src="image/arrow_up.png" alt="arrow up" class="arrow_up"></a>
-    <header>
-        <ul id="navbar"> <!-- navigation bar -->
-            <li><a href="contact">Contact</a></li>
-            <li><a href="index">Home</a></li>
-        </ul>
-    </header>  
+    <a href="#homepage"><img src="image/arrow_up.png" alt="arrow up" class="arrow_up"></a>
+
     <div id="homepage"> <!-- homepage -->
         <img src="image/logo.png" alt="logo glenn oberlé" class="logo">
         <div class="titre" id="titre">
@@ -23,7 +18,7 @@
         <h1 id="h2">En recherche d'alternance Développeur informatique</h1>
         </div>
     </div>
-    <button class="bouton_contact"><a href="contact">me contacter</a></button>
+    <button class="bouton_contact"><a href="#footer">me contacter</a></button><!-- bouton me contacter-->
     
     <div id="projet"><!-- partie projets -->
         <br><h1>mes projets :</h1><br>
@@ -55,7 +50,6 @@
 
         <div class="aboutme"><!-- photo plus description -->
             <img src="image/photo.png" alt="photo" class="photo">
-            <h1>glenn oberlé</h1>
             <div class="text_aboutme"><p>Passioné par l'informatique depuis plusieurs années, je suis actuellement dans la formation développeur informatique au CESI.</p></div>
         </div>
 
@@ -83,7 +77,32 @@
             </div>
         </div>
         <button id="bouton"><a href="CV.pdf">voir mon cv</a></button>
-    </div>
+
+        <footer id="footer"> <!-- footer contact-->
+            <div class="contact_text">
+                <h1>me contacter :</h1>
+                <div id="mail">
+                        <img src="image/mail.png" alt="icon mail" class="mail">
+                        <p><a href="mailto:oberle.glenn@icloud.com">oberle.glenn@icloud.com</a></p>
+                </div>
+
+                <div id="phone">
+                        <img src="image/phone.png" alt="icon phone" class="phone">
+                        <p><a href="tel:+33750822600">07 50 82 26 00</a></p>
+                </div>
+
+                <div id="in">
+                        <img src="image/in.png" alt="logo linkedin" class="in">
+                        <p><a href="https://www.linkedin.com/in/glenn-oberlé-464432193">Glenn Oberlé</a></p>
+                </div>
+            </div>
+            <div class="localisation">
+                <h1>localisation :</h1>
+                <div style="width: 300px;position: relative;">
+                    <iframe width="300" height="200" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Bordeaux%2CFrance+(Titre)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="http://www.googlemapsgenerator.com/zh/">googlemapsgen (zh)</a> & <a href="https://opwaarderenlebara.nl/">opwaarderenlebara NL</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+                </div>
+            </div>
+        </footer>
 <script src="js/app.js"></script>
 </body>
 </html>
