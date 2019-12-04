@@ -299,13 +299,27 @@ footer a{
 }
 .localisation h1{
     color: white;
+    text-transform: uppercase;
 }
 .localisation iframe{
     margin-top: 10%;
 }
+footer{
+    font-family: 'Montserrat', sans-serif;
+}
 @media all and (orientation: portrait)
 {
  
+    footer h1{
+        text-transform: uppercase;
+        font-size: 4em;
+    }
+    footer p{
+        font-size: 3em;
+    }
+    .localisation h1{
+        text-align: center;
+    }
     .diplome{
         margin-top: 35vh;
     }
@@ -508,5 +522,8 @@ footer a{
     }
     .contact_text{
         width: 400px;
+    }
+    .contact_text h1{
+        text-transform: uppercase;
     }
 }
