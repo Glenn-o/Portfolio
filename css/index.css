@@ -469,6 +469,10 @@ footer{
         margin-left: 25%;
         margin-bottom: 10%;
     }
+    #img_check{
+        width: 5%;
+        margin-left: 2%;
+    }
 
 }
 @media all and (max-width: 1100px) and (orientation: landscape)
