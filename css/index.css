@@ -131,10 +131,6 @@ a{
     margin: 100px auto;
     box-shadow: 0px 0px 18px -3px rgba(44,62,80,0.3);
 }
-.bientot:hover{
-    transform: scale(1.02);
-    transition: 200ms;
-}
 .img_bientot{
     width: 50%;
     margin-top: 90px;
@@ -307,7 +303,7 @@ footer a{
 .localisation iframe{
     margin-top: 10%;
 }
-@media screen and (orientation: portrait)
+@media all and (orientation: portrait)
 {
  
     .diplome{
@@ -458,7 +454,7 @@ footer a{
     }
 
 }
-@media screen and (max-width: 1100px) and (orientation: landscape)
+@media all and (max-width: 1100px) and (orientation: landscape)
 {
     body{
         margin-top: 15vh;
