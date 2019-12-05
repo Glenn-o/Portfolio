@@ -269,6 +269,10 @@ footer{
     border-radius: 50%;
     float: left;
 }
+.github{
+    width: 10%;
+    float: left;
+}
 .phone{
     width: 10%;
     float: left;
@@ -292,6 +296,9 @@ footer a{
 #mail{
     margin-top: 5%;
     padding: 10px 10px;
+}
+#github{
+    padding: 10px;
 }
 #phone{
     padding: 10px 10px;
@@ -458,6 +465,21 @@ footer{
         display: none;
     }
     .in{
+        display: block;
+        margin: auto; 
+        float: none;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .github{
+        display: block;
+        margin: auto; 
+        float: none;
+    }
+    #in p{
+        display: none;
+    }
+    #github p{
         display: none;
     }
     footer p{
@@ -475,7 +497,7 @@ footer{
     .localisation{
         margin: auto;
         float: none;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     .localisation iframe{
