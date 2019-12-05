@@ -14,9 +14,10 @@ a{
     color: #2c3e50;
 }
 .logo{
-    width: 200px;
+    width: 250px;
     display: flex;
     margin: 3% auto;
+    cursor: pointer;
 }
 #h1{
     font-family: 'Montserrat', sans-serif;
@@ -337,7 +338,7 @@ footer{
         width: 13%;
     }
     .logo{
-        width: 35%;
+        width: 40%;
         display: flex;
         margin: 0 auto;
         margin-bottom: 5vh;
