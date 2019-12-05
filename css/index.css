@@ -9,6 +9,22 @@ body{
     padding: 0; 
     width: 100%;
 }
+.egg{
+    width: 200px;
+    display: block;
+    margin: auto;
+    display: none;
+}
+.indice{
+    text-decoration: none;
+    color: #2c3e50;
+}
+.indice p{
+    width:10px;
+}
+.indice:hover{
+    color: white;
+}
 a{
     text-decoration: none;
     color: #2c3e50;

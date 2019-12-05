@@ -9,7 +9,31 @@
     <link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
     <link href="https://fonts.googleapis.com/css?family=Alata|Montserrat&display=swap" rel="stylesheet">
 </head>
+<script>
+function login()
+{
+    var password = prompt( "Veuillez entrer le mot de passe pour accéder à cette page", "" );
+    // si un mot de passe a été entré
+    if ( password != null )
+    {
+    	// on le compare à celui attendu
+    	if ( password == "bravo" )
+    	{
+    	    // mot de passe valide, on ouvre la page secrète
+    	    document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }
+        else
+        {
+            alert( "Mot de passe incorrecte!", "Erreur" );
+        }
+    }
+}
+function indice(){
+    alert("Bravo tu as trouvé un indice : tape 'easter egg' et regarde ce qui se passe !")
+}
+</script>
 <body>
+    <a href="javascript:login()"><img src="image/egg.png" alt="egg" class="egg"></a>
     <a href="#homepage"><img src="image/arrow_up.png" alt="arrow up" class="arrow_up"></a>
      <!------------------------------------------ homepage ---------------------------------------->
     <div id="homepage">
@@ -101,6 +125,7 @@
                     <img src="image/in.png" alt="logo linkedin" class="in">
                     <p><a href="https://www.linkedin.com/in/glenn-oberlé-464432193">Glenn Oberlé</a></p>
             </div>
+            <a href="javascript:indice()" class="indice"><p>.</p></a>
         </div>
         <div class="localisation">
             <h1>localisation :</h1>
