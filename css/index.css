@@ -31,7 +31,6 @@ a{
     width: 250px;
     display: flex;
     margin: 3% auto;
-    cursor: pointer;
 }
 #h1{
     font-family: 'Montserrat', sans-serif;
@@ -544,7 +543,6 @@ footer{
     }
     .diplome{
         margin-top: 20%;
-
     }
     .logo_diplome{
         width: 10%;
