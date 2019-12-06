@@ -25,6 +25,7 @@ body{
 a{
     text-decoration: none;
     color: #2c3e50;
+    width: auto;
 }
 .logo{
     width: 250px;
@@ -60,7 +61,9 @@ a{
     text-transform: uppercase;
     font-size: 1.3em;
 }
-
+.bouton_contact_a{
+    cursor: initial;
+}
 .bouton_contact:hover{
     transform: scale(1.10);
     transition: 200ms;
@@ -171,6 +174,9 @@ a{
     transform: scale(1);
     cursor: pointer;
     text-transform: uppercase;
+}
+.bouton_a{
+    cursor:initial;
 }
 #bouton:hover{
     transform: scale(1.10);

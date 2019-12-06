@@ -4,9 +4,10 @@ var allowedKeys = {
     83: 's',
     84: 't',
     82: 'r',
-    71: 'g'
+    71: 'g',
+    32: 'space'
   };
-var eggCode = ['e', 'a', 's', 't', 'e', 'r', 'e', 'g', 'g'];
+var eggCode = ['e', 'a', 's', 't', 'e', 'r', 'space', 'e', 'g', 'g'];
 var eggCodePosition = 0;
 var egg = document.querySelector('.egg');
   
@@ -22,6 +23,7 @@ document.addEventListener('keydown', function(e) {
 
     if (eggCodePosition == eggCode.length) {
       activate();
+      window.scroll(0, 0);
       eggCodePosition = 0;
     }
   } else {

@@ -12,15 +12,15 @@
 <script>
 function login()
 {
-    var password = prompt( "Veuillez entrer le mot de passe pour accéder à cette page", "" );
+    var password = prompt( "Veuillez entrer le 'mot de passe' pour accéder à cette page", "" );
     // si un mot de passe a été entré
     if ( password != null )
     {
     	// on le compare à celui attendu
-    	if ( password == "egg" )
+    	if ( password == "mot de passe" )
     	{
     	    // mot de passe valide, on ouvre l'easter egg
-    	    document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    	    document.location.href = "https://youtu.be/dQw4w9WgXcQ?list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3";
         }
         else
         {
@@ -28,7 +28,8 @@ function login()
         }
     }
 }
-function indice(){
+function indice()
+{
     alert("Bravo tu as trouvé un indice, tape 'easter egg' et regarde ce qui se passe !")
 }
 </script>
@@ -43,7 +44,7 @@ function indice(){
         <h1 id="h2">En recherche d'alternance Développeur informatique</h1>
         </div>
     </div>
-    <a href="#footer"><button class="bouton_contact">me contacter</button></a>
+    <a href="#footer" class="bouton_contact_a"><button class="bouton_contact">me contacter</button></a>
     
     <!---------------------------------------------- partie projets -------------------------------->
     <div id="projet">
@@ -105,7 +106,7 @@ function indice(){
             </div>
         </div>
 
-        <a href="CV.pdf" target="_blank"><button id="bouton">voir mon cv</button></a>
+        <a href="CV.pdf" target="_blank" class="bouton_a"><button id="bouton">voir mon cv</button></a>
     </div>
     <!--------------------------------------------- footer contact -------------------------------------------->
     <footer id="footer"> 
