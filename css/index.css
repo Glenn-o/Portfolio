@@ -22,9 +22,6 @@ body{
 .indice p{
     width:10px;
 }
-.indice:hover{
-    color: white;
-}
 a{
     text-decoration: none;
     color: #2c3e50;
