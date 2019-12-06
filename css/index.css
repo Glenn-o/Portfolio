@@ -170,9 +170,6 @@ a{
     border-radius: 100px;
     transform: scale(1);
     cursor: pointer;
-}
-#bouton a{
-    color: white;
     text-transform: uppercase;
 }
 #bouton:hover{
