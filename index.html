@@ -9,34 +9,22 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
     <link rel="shortcut icon" type="image/png" href="image/logo.png" />
     <link href="https://fonts.googleapis.com/css?family=Alata|Montserrat&display=swap" rel="stylesheet">
+    <script src="js/app.js" async></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </head>
-<script>
-function login()
-{
-    var password = prompt( "Veuillez entrer 'le mot de passe' pour accéder à cette page", "" );
-    // si un mot de passe a été entré
-    if ( password != null )
-    {
-    	// on le compare à celui attendu
-    	if ( password == "le mot de passe" )
-    	{
-    	    // mot de passe valide, on ouvre l'easter egg
-    	    document.location.href = "https://youtu.be/dQw4w9WgXcQ?list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3";
-        }
-        else
-        {
-            alert( "Mot de passe incorrect!", "Erreur" );
-        }
-    }
-}
-function indice()
-{
-    alert("Bravo tu as trouvé un indice, tape 'easter egg' et regarde ce qui se passe !")
-}
-</script>
 <body>
-    <a href="javascript:login()"><img src="image/egg.png" alt="egg" class="egg"></a>
-    <a href="#homepage"><img src="image/arrow_up.png" alt="arrow up" class="arrow_up"></a>
+    <header>
+        <div id="navbar">
+            <ul>
+                <a href="#homepage"><li id="span"><span></span></li></a>
+                <a href="#projet"><li id="span"><span></span></li></a>
+                <a href="#me"><li id="span"><span></span></li></a>
+                <a href="#footer"><li clas="span"><span></span></li></a>
+                
+            </ul>
+        </div>
+    </header>
+
      <!------------------------------------------ homepage ---------------------------------------->
     <div id="homepage">
         <img src="image/logo.png" alt="logo glenn oberlé"class="logo"><!-- By Paul Couderc-->
@@ -46,27 +34,18 @@ function indice()
         </div>
     </div>
     <a href="#footer" class="bouton_contact_a"><button class="bouton_contact">me contacter</button></a>
+    <a href="CV.pdf" target="_blank" class="bouton_a"><button id="bouton">voir mon cv</button></a><br>
 
-    <a href="CV.pdf" target="_blank" class="bouton_a"><button id="bouton">voir mon cv</button></a>
-    
     <!----------------------------------------- partie projets ------------------------------------->
+   
     <div id="projet">
         <br><h1>mes projets :</h1><br>
-
-        <a href="https://github.com/Glenn-o/POC" target="_blank"><div class="projet1"><br><p><u>1 - page web avec un espace membres :</u></p><br>
         
-    <!--------------------------------------------- slider ------------------------------------------>
-        <div class="slider"> 
-            <div class="slides">
-                <div class="slide"><img class="img_poc" src="image/poc1.PNG" alt="poc homepage"></div>
-                <div class="slide"><img class="img_poc" src="image/poc_connexion.PNG" alt="poc connexion"></div>
-                <div class="slide"><img class="img_poc" src="image/poc_inscription.PNG" alt="poc inscription"></div> 
-            </div>
-        </div>
-
-        <div id="description_slider">
-            <p>Site web avec un système d'inscription et de connexion relié à une base de données, il a été réalisé dans le cadre de la formation développeur informatique au CESI de bordeaux.</p>
-        </div><br>
+        <a href="https://github.com/Glenn-o/POC" target="_blank">
+        <div class="projet1">
+            <img src="image/poc_connexion.PNG">
+            <h1>Système de connexion avec un espace membres</h1>
+            <p class="projet1_p">Projet réalisé dans le cadre de la formation développeur informatique au CESI de Bordeaux.</p>
         </div></a>
 
         <div class="bientot">
@@ -77,35 +56,29 @@ function indice()
     </div>
 
     <!------------------------------------------ partie personnel ----------------------------------------->
-    <div class="me"> 
+    <div class="me" id="me"> 
         <h1>à propos de moi :</h1>
 
         <div class="aboutme">
-            <img src="image/photo.png" alt="photo" class="photo">
+            <img src="image/boy.png" alt="photo" class="photo">
             <div class="text_aboutme"><p>Passioné par l'informatique depuis plusieurs années, je suis actuellement dans la formation développeur informatique au CESI.</p></div>
         </div>
         
         <div class="diplome">  
-            <h1>diplôme et formation :</h1><br>
             <div id="container2">
-                <img src="image/logo_diplome.png" alt="logo diplome" class="logo_diplome">
+                <img src="image/certificate.png" alt="logo diplome" class="logo_diplome">
                 <p>2019-2021 / formation au cesi (développeur informatique)</p><br>
                 <p>2019 / baccalauréat scientifique</p><br><br>
             </div>
         </div>
 
         <div class="xp">
-            <h1>compétences :</h1>
             <div id="container">
-                <img src="image/logo_skills.png" alt="logo compétences" class="skill" >
+                <img src="image/web-programming.png" alt="logo compétences" class="skill" >
                 <p class="p1">- html/css<img src="image/check.png" id="img_check"></p><br>
                 <p class="p2">- Python<img src="image/check.png" id="img_check"></p><br>
                 <p class="p3">- JavaScript<img src="image/check.png" id="img_check"></p><br>
                 <p class="p4">- Git/GitHub<img src="image/check.png" id="img_check"></p><br>
-            </div>
-
-            <div id="container2">
-
             </div>
         </div>
     </div>
@@ -132,7 +105,6 @@ function indice()
                 <a href="https://github.com/Glenn-o" target="_blank"><img src="image/github.png" alt="icon github" class="github">
                 <p>Glenn-o</p></a>
             </div>
-            <a href="javascript:indice()" class="indice"><p>.</p></a>
         </div>
         <div class="localisation">
             <h1>localisation :</h1>
@@ -141,6 +113,6 @@ function indice()
             </div>
         </div>
     </footer>
-<script src="js/app.js"></script>
+    <a href="#homepage"><img src="image/arrow_up.png" alt="arrow up" class="arrow_up"></a>
 </body>
 </html>
