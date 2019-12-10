@@ -975,8 +975,8 @@ html,body {
 .arrow_up{
 width: 40px;
 opacity: 0.5;
-right: 2vw;
-bottom: 2vh;
+right: 3vw;
+bottom: 3vh;
 position: fixed;
 z-index: 100;
 }
