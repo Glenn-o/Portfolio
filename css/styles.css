@@ -1017,6 +1017,12 @@ h1, h2{
 .logo_git{
   width: 33%;
 }
+.logo_php{
+  width: 33%;
+}
+.logo_skills{
+  width: 33%;
+}
 .check{
   width: 7%;
   margin-left: 3%;
