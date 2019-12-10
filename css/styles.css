@@ -1029,13 +1029,15 @@ h1, h2{
   margin-bottom: 1%;
 }
 .img_poc{
-  height: 401.51px;
+  width: 100%;
+  border-radius: 10px;
 }
 .logo_search{
   width: 30%;
 }
 .logo_coming_soon{
-  height: 401.51px;
+  width: 100%;
+  border-radius: 10px;
 }
 .photo_aboutme{
   width: 100%;
@@ -1045,4 +1047,9 @@ h1, h2{
   .arrow_up{
     display: none;
   }
+}
+#bouton_portfolio{
+  background-color: #7f55fd;
+  color: white;
+  border: none;
 }
