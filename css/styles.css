@@ -1034,7 +1034,7 @@ h1, h2{
 .photo_aboutme{
   width: 100%;
 }
-@media screen and(orientation: portrait)
+@media (orientation: portrait)
 {
   .arrow_up{
     display: none;
