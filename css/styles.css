@@ -1020,10 +1020,9 @@ h1, h2{
 .check{
   width: 7%;
   margin-left: 3%;
-  margin-bottom: 1%
+  margin-bottom: 1%;
 }
 .img_poc{
-  margin-left: -23vw;
   height: 401.51px;
 }
 .logo_search{
@@ -1031,8 +1030,13 @@ h1, h2{
 }
 .logo_coming_soon{
   height: 401.51px;
-  margin-left: -18vw;
 }
 .photo_aboutme{
   width: 100%;
+}
+@media screen and(orientation: portrait)
+{
+  .arrow_up{
+    display: none;
+  }
 }
