@@ -1053,4 +1053,7 @@ h1, h2{
   .arrow_up{
     display: none;
   }
+  .about__description{
+    padding-left: 5px;
+  }
 }
