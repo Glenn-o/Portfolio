@@ -75,7 +75,7 @@ html,body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
-  scroll-behavior: smooth;
+
 }
 
 .header--bg{
@@ -1065,6 +1065,7 @@ h1, h2{
   .titre_oberle{
     animation: animation2 1s;
   }
+  
 }
 
 @media (max-width: 1200px) and (orientation: landscape){
@@ -1094,3 +1095,4 @@ h1, h2{
     margin-left: 0;
   }
 }
+
