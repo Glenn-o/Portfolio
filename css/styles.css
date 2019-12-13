@@ -1057,3 +1057,21 @@ h1, h2{
     padding-left: 5px;
   }
 }
+.titre_glenn{
+  animation: animation1 1s ;
+}
+@keyframes animation1{
+  0%{
+    margin-right: 65%;
+    
+  }
+  100%{
+    margin-right: 0;
+  }
+}
+@media (max-width: 1200px)
+{
+  .titre_glenn{
+    animation: none;
+  }
+}
