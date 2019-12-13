@@ -75,6 +75,7 @@ html,body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
+  scroll-behavior: smooth;
 
 }
 
@@ -1053,7 +1054,7 @@ h1, h2{
 @media (orientation: portrait){
   .arrow_up
   {
-    display: none;
+    width: 15%;
   }
   .about__description
   {
