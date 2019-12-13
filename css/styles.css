@@ -1055,10 +1055,25 @@ h1, h2{
   .about__description{
     padding-left: 5px;
   }
+  .header__content__title{
+    animation: forMobile 3s;
+  }
+}
+@media (max-width: 1200px)
+{
+  .titre_glenn{
+    animation: none;
+  }
+  .header__content__title{
+    animation: forMobile 2s;
+  }
 }
 .titre_glenn{
   animation: animation1 1s ;
 }
+
+/* ----------------animation------------------ */
+
 @keyframes animation1{
   0%{
     margin-right: 65%;
@@ -1068,9 +1083,12 @@ h1, h2{
     margin-right: 0;
   }
 }
-@media (max-width: 1200px)
-{
-  .titre_glenn{
-    animation: none;
+@keyframes forMobile{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
   }
 }
+
