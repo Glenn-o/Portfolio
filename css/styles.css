@@ -257,7 +257,9 @@ html,body {
   border-bottom: 1px #C1C1C1 dashed;
   display: block;
 }
-
+.about__description strong{
+  font-weight: initial;
+}
 @media screen and (max-width: 991px){
   .about__image{
    text-align: center;
