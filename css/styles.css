@@ -1083,6 +1083,9 @@ h1, h2{
     margin-right: 65%;
     
   }
+  50%{
+    margin-right: 65%;
+  }
   100%{
     margin-right: 0;
   }
@@ -1091,6 +1094,9 @@ h1, h2{
   0%{
     margin-left: 50%;
     
+  }
+  50%{
+    margin-left: 50%;
   }
   100%{
     margin-left: 0;
