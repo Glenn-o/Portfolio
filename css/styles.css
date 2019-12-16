@@ -137,6 +137,11 @@ html,body {
   margin-top: 30px;
   text-transform: uppercase;
 }
+.header__button:hover{
+  transform: scale(1.10);
+ color: #7f56fd;
+ transition: 200ms;
+}
 
 .navbar .navbar-nav > li > a, .navbar .navbar-brand, .navbar .navbar-nav > li > a:focus{
   background-color: transparent;
@@ -985,8 +990,16 @@ z-index: 100;
 .logo_github{
   width: 100%;
 }
+.logo_github:hover{
+  transform: scale(1.10);
+  transition: ease-in 100ms;
+}
 .logo_in{
   width: 100%;
+}
+.logo_in:hover{
+  transform: scale(1.10);
+  transition: ease-in 100ms;
 }
 #bouton{
   transform: scale(1);
@@ -994,7 +1007,7 @@ z-index: 100;
 }
 #bouton:hover{
   transform: scale(1.05);
-  transition: 100ms;
+  transition: 200ms;
 }
 h1, h2{
   text-transform: uppercase;
@@ -1026,11 +1039,6 @@ h1, h2{
 .logo_skills{
   width: 33%;
 }
-.check{
-  width: 7%;
-  margin-left: 3%;
-  margin-bottom: 1%;
-}
 .logo_portfolio{
   width: 100%;
   height: 401px;
@@ -1053,6 +1061,16 @@ h1, h2{
 }
 .titre_glenn{
   animation: animation1 1s;
+  border: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+nav li{
+  border-top: 3px solid  rgba(255, 255, 255, 0); 
+}
+nav li:hover{
+  border-top: 3px solid  rgba(255, 255, 255, 1); 
 }
 @media (orientation: portrait){
   .arrow_up
