@@ -990,6 +990,7 @@ z-index: 100;
 }
 #bouton{
   transform: scale(1);
+  cursor: pointer;
 }
 #bouton:hover{
   transform: scale(1.05);
