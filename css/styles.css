@@ -140,7 +140,7 @@ html,body {
 .header__button:hover{
   transform: scale(1.10);
  color: #7f56fd;
- transition: 200ms;
+ transition: 300ms;
 }
 
 .navbar .navbar-nav > li > a, .navbar .navbar-brand, .navbar .navbar-nav > li > a:focus{
@@ -499,9 +499,13 @@ html,body {
   position: relative;
   overflow: hidden;
   margin-bottom: 40px;
+  transform: scale(1);
 
 }
-
+.portfolio__single-section:hover{
+  transform: scale(1.05);
+  transition: 300ms;
+}
 .portfolio__single-section__image{
  display: block;
  height: auto;
@@ -531,23 +535,21 @@ html,body {
 
 .portfolio__single-section .overlay-content{
   position: absolute;
-  bottom: 25px;
+  bottom: 5px;
   margin-left: 35px;
   z-index: 10;
 }
 
 .portfolio__single-section__overlay{
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;  
-  height: 100%;
+  height: 20%;
   width: 100%;
-  opacity: 0;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  opacity: 1;
   background-color: rgba(133, 91, 249, .9);
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .portfolio__single-section:hover .portfolio__single-section__overlay{
@@ -1052,7 +1054,7 @@ h1, h2{
   border-radius: 10px;
 }
 .photo_aboutme{
-  width: 100%;
+  width: 300px;
 }
 #bouton_portfolio{
   background-color: #7f55fd;
@@ -1071,6 +1073,7 @@ nav li{
 }
 nav li:hover{
   border-top: 3px solid  rgba(255, 255, 255, 1); 
+  transition: 400ms;
 }
 @media (orientation: portrait){
   .arrow_up
@@ -1094,6 +1097,11 @@ nav li:hover{
   .titre_glenn
   {
     animation: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+  #bouton{
+    padding: 10px 30px;
   }
 }
 
