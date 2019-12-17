@@ -378,7 +378,6 @@ html,body {
 .skill__single-part__title{
   font-size: 15px;
   color: #273f59;
-  margin-bottom: 30px;
   margin-top: 5px;
   font-weight: bold;
 }
@@ -1075,6 +1074,9 @@ nav li:hover{
   border-top: 3px solid  rgba(255, 255, 255, 1); 
   transition: 400ms;
 }
+.competence_text{
+  padding: 10px 10px;
+}
 @media (orientation: portrait){
   .arrow_up
   {
@@ -1092,6 +1094,7 @@ nav li:hover{
   }
   
 }
+
 
 @media (max-width: 1200px) and (orientation: landscape){
   .titre_glenn
@@ -1125,4 +1128,7 @@ nav li:hover{
     margin-left: 0;
   }
 }
-
+.thumbnail.text-center{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
