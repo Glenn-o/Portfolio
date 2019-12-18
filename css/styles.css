@@ -1068,10 +1068,10 @@ footer a:hover{
   text-decoration: underline;
 }
 nav li{
-  border-top: 3px solid  rgba(255, 255, 255, 0); 
+  border-bottom: 3px solid  rgba(255, 255, 255, 0); 
 }
 nav li:hover{
-  border-top: 3px solid  rgba(255, 255, 255, 1); 
+  border-bottom: 3px solid  rgba(255, 255, 255, 1); 
   transition: 400ms;
 }
 .competence_text{
