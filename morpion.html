@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/morpion.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Morpion</title>
+</head>
+<body>
+    <h1>morpion</h1>
+    <div class="choix_perso" id="choix_perso">
+        <p>Choisissez la croix ou le rond.</p>
+        <button id="croix" onclick="choixUser('X')">X</button>
+        <button id="rond" onclick="choixUser('O')">O</button>
+        <p id="Player"></p>
+        <p id="choix_null"></p>
+    </div>
+   
+    <div class="main">
+        <div onclick="play('tab1')" id="tab1" class="tab">&nbsp;</div>
+        <div onclick="play('tab2')" id="tab2" class="tab">&nbsp;</div>
+        <div onclick="play('tab3')" id="tab3" class="tab">&nbsp;</div>
+        <div onclick="play('tab4')" id="tab4" class="tab">&nbsp;</div>
+        <div onclick="play('tab5')" id="tab5" class="tab">&nbsp;</div>
+        <div onclick="play('tab6')" id="tab6" class="tab">&nbsp;</div>
+        <div onclick="play('tab7')" id="tab7" class="tab">&nbsp;</div>
+        <div onclick="play('tab8')" id="tab8" class="tab">&nbsp;</div>
+        <div onclick="play('tab9')" id="tab9" class="tab">&nbsp;</div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
