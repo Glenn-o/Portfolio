@@ -38,14 +38,21 @@ function play(id){
 function gagne(a,b,c){
     if(tab_user[a] == "X" && tab_user[b] =="X" && tab_user[c]== "X" || tab_user[a] == "O" && tab_user[b] =="O" && tab_user[c]== "O" )
     {
-        document.getElementById('choix_null').innerHTML = "Vous avez gagné";
+        document.getElementById('choix_null').innerHTML = choix + " a gagné";
         document.getElementById('choix_null').style.color = "red";
         document.getElementById('choix_null').style.animation = "bounce 2s infinite";
+        document.getElementById('refresh').style.display = "block";
     }  
 }
-function random(){
-    var random = (Math.floor(Math.random() * x) + 1); 
-    x -= 2;
-    positionRandom = "tab" + random;
-    return positionRandom;
+function rejouer(){
+    for (var i = 1; i<10; i++)
+    {
+        document.getElementById(id).innerHTML = " ";
+    }
 }
+
+function refresh(){
+    var refresh = document.location.reload(false);
+   
+}
+

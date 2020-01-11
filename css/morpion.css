@@ -36,6 +36,20 @@ h1{
     margin-right: 50px;
     cursor: pointer;
 }
+#refresh{
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 50px auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #e74c3c;
+    color: white;
+    display: none;
+}
 #croix:hover, #rond:hover{
     transform: scale(1.2);
     transition: 200ms;
