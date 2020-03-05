@@ -1094,7 +1094,15 @@ nav li:hover{
   }
   
 }
-
+@media all and (max-width: 900px){
+  #container_button{
+    flex-direction: column;
+  }
+  .button_langage{
+    margin: 1vh auto;
+    width: 50vw;
+  }
+}
 
 @media (max-width: 1200px) and (orientation: landscape){
   .titre_glenn
