@@ -46,7 +46,7 @@
   <section class="about" id="about">
     <div class="container about__container--narrow">
       <div class="page-section" id="medecouvrir">
-        <h2 class="page-section__title">à propos de moi</h2>
+        <h2 class="page-section__title" class="a_propos_de_moi">à propos de moi</h2>
           <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
           <div class="row gutters-80">
             <div class="col-md-4">
@@ -66,7 +66,7 @@
               </div>
               <div class="row">
                 <div class="col-md-4">
-                  <a class="button button--colorful button--margin" id="bouton" href="CV.pdf" target="_blank">voir mon cv</a>
+                  <a class="button button--colorful button--margin" id="bouton" href="assets/pdf/CV.pdf" target="_blank">voir mon cv</a>
                 </div>
                 <div class="col-md-4">
                   <a class="button button--colorful button--margin"  id="bouton" href="#footer" >me contacter</a>
@@ -163,9 +163,19 @@
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">mon portfolio</h2>
+      
         <img class="page-section__title-style" src="assets/images/title-style.png" alt=""><br><br>
         <div class="row gutters-40">
-          <div class="col-md-4">
+        <div id="container_button">
+          <button id="all" class="button_langage">TOUT</button>
+          <button id="html" class="button_langage">HTML</button>
+          <button id="js" class="button_langage">JavaScript</button>
+          <button id="php" class="button_langage">PHP</button>
+          <button id="SQL" class="button_langage">MySQL</button>
+          <button id="c" class="button_langage">C</button>
+          <button id="processing" class="button_langage" >Processing</button>
+        </div>
+          <div class="col-md-4" id="img1">
             <a href="https://github.com/Glenn-o/POC" target="_blank" ><div class="portfolio__single-section mix" data-order="1">
               <img class="logo_portfolio"  src="image/poc_connexion.PNG" alt="img poc">
               <div class="portfolio__single-section__overlay">
@@ -177,7 +187,7 @@
             </div></a>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4" id="img2">
             <a href="https://github.com/Glenn-o/Pong-en-processing" target="_blank"><div class="portfolio__single-section mix " data-order="2">
              <img src="image/pong.PNG" alt="pong " class="logo_portfolio">
               <div class="portfolio__single-section__overlay">
@@ -188,7 +198,7 @@
             </div></a>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4" id="img3">
             <a href="morpion.html" target="_blank"><div class="portfolio__single-section mix " data-order="2">
              <img src="image/morpion.png" alt="morpion " class="logo_portfolio">
               <div class="portfolio__single-section__overlay">
@@ -199,12 +209,24 @@
             </div></a>
           </div>
           
-          <div class="col-md-4">
+          <div class="col-md-4" id="img4">
             <a href="https://github.com/Glenn-o/CalculatricEnC" target="_blank"><div class="portfolio__single-section mix " data-order="2">
              <img src="image/calculatrice.png" alt="calculatric_en_c" class="logo_portfolio">
               <div class="portfolio__single-section__overlay">
                 <div class="overlay-content">
                   <h4>calculatrice en c</h4>
+                </div>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-md-4" id="img5">
+            <a href="https://github.com/Glenn-o/Automatisation-CSV-en-SQL" target="_blank"><div class="portfolio__single-section mix " data-order="2">
+             <img src="image/tue_le_c.png" alt="calculatric_en_c" class="logo_portfolio">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>Projet TUE LE C</h4>
+                  <p>Langage C</p>
                 </div>
               </div>
             </div></a>
@@ -236,9 +258,10 @@
       </div>
     </div>
   </footer>
-  <script src="assets/jquery/jquery-3.2.1.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</div>
+  </div>
+<script src="assets/jquery/jquery-3.2.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>  

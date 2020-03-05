@@ -1132,3 +1132,30 @@ nav li:hover{
   padding-bottom: 20px;
   padding-top: 20px;
 }
+.button_langage{
+  background-color: #7F56FD;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 30px;
+  font-size: 1.2em;
+  border: 1px solid #7f55fd;
+}
+#container_button{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-bottom: 10vh;
+}
+.button_langage:hover{
+  transform: scale(1.10);
+  transition: 200ms;
+  background-color: white;
+  color: #7f55fd;
+  border: 1px solid #7f55fd;
+}
+.button_langage:focus{
+  outline: none;
+  background-color: white;
+  color: #7f55fd;
+}
