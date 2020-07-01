@@ -21,7 +21,7 @@ all.addEventListener("click", function(){
     img3.style.display = "flex";
     img4.style.display = "flex";
     img5.style.display = "flex";
-    img6.style.display = "flex":
+    img6.style.display = "flex";
     all.style.background = "white";
     all.style.color = "#7f55fd";
    
@@ -33,7 +33,7 @@ html.addEventListener("click", function(){
     img3.style.display = "flex";
     img4.style.display = "none";
     img5.style.display = "none";
-    img6.style.display = "flex":
+    img6.style.display = "flex";
     all.style.background = "#7f55fd";
     all.style.color = "white";
 })
@@ -44,7 +44,7 @@ php.addEventListener("click", function(){
     img3.style.display = "none";
     img4.style.display = "none";
     img5.style.display = "none";
-    img6.style.display = "none":
+    img6.style.display = "none";
     all.style.background = "#7f55fd";
     all.style.color = "white";
 })
@@ -55,7 +55,7 @@ js.addEventListener("click", function(){
     img3.style.display = "flex";
     img4.style.display = "none";
     img5.style.display = "none";
-    img6.style.display = "flex":
+    img6.style.display = "flex";
     all.style.background = "#7f55fd";
     all.style.color = "white";
 })
@@ -66,7 +66,7 @@ sql.addEventListener("click", function(){
     img3.style.display = "none";
     img4.style.display = "none";
     img5.style.display = "flex";
-    img6.style.display = "none":
+    img6.style.display = "none";
     all.style.background = "#7f55fd";
     all.style.color = "white";
 })
@@ -76,7 +76,7 @@ c.addEventListener("click", function(){
     img3.style.display = "none";
     img4.style.display = "flex";
     img5.style.display = "flex";
-    img6.style.display = "none":
+    img6.style.display = "none";
     all.style.background = "#7f55fd";
     all.style.color = "white";
 })
@@ -87,7 +87,7 @@ processing.addEventListener("click", function(){
     img3.style.display = "none";
     img4.style.display = "none";
     img5.style.display = "none";
-    img6.style.display = "none":
+    img6.style.display = "none";
     all.style.background = "#7f55fd";
     all.style.color = "white";
 })
